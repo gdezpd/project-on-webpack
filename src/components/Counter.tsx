@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './counter.scss'
 
 const Counter = () => {
     let [increment, setIncrement] = useState<number>(0)
@@ -8,7 +9,6 @@ const Counter = () => {
     return (
         <div>
             {increment}
-
             <button onClick={onClickHandler}> dsfsdf</button>
         </div>
     );
