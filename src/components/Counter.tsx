@@ -1,17 +1,16 @@
 import React, {useState} from 'react';
-import './counter.scss'
+import s from './Counter.module.scss'
 
-const Counter = () => {
+export const Counter = () => {
     let [increment, setIncrement] = useState<number>(0)
     const onClickHandler = () => {
         setIncrement(prev=> prev+1)
     }
     return (
-        <div>
+        <div className={s.button}>
             {increment}
+            <br/>
             <button onClick={onClickHandler}> dsfsdf</button>
         </div>
     );
 };
-
-export default Counter;
