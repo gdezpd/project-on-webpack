@@ -1,5 +1,5 @@
-import {ThemSwitcher} from "widgets/ThemSwitcher/ui/ThemSwitcher";
+import { ThemSwitcher } from 'widgets/ThemSwitcher/ui/ThemSwitcher';
 
 export {
-    ThemSwitcher,
-}
+  ThemSwitcher,
+};
