@@ -15,7 +15,7 @@ export const ThemSwitcher = ({ className }: ThemSwitcherProps) => {
 
   return (
   // eslint-disable-next-line max-len
-    <Button theme={ThemeButton.CLEAR} className={classNames(s.ThemSwitcher, {}, [className])} onClick={toggleTheme}>
+    <Button theme={ThemeButton.CLEAR} className={classNames('', {}, [className])} onClick={toggleTheme}>
       {theme === Theme.LIGHT ? <DarkIcon /> : <LightIcon />}
     </Button>
   );
