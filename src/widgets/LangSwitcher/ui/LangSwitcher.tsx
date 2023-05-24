@@ -2,7 +2,6 @@ import { classNames } from 'helpers/classNames/classNames';
 import React from 'react';
 import { Button, ThemeButton } from 'shared/ui/Button/Button';
 import { useTranslation } from 'react-i18next';
-import s from './LangSwitcher.module.scss';
 
 interface ThemSwitcherProps {
     className?: string
