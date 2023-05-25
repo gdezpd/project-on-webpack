@@ -14,8 +14,77 @@ const App = () => {
       <Suspense fallback="">
         <Navbar />
         <div className="content-page ">
-          <Sidebar />
-          <AppRouter />
+          {/* <Sidebar /> */}
+          {/* <AppRouter /> */}
+          <div style={{
+            backgroundColor: 'red', width: '100px', height: '50px', marginBottom: '25px',
+          }}
+          />
+          <div style={{
+            backgroundColor: 'black',
+            width: '800px',
+            height: '200px',
+            marginTop: '25px',
+            display: 'flex',
+            flexDirection: 'column',
+            flexWrap: 'wrap',
+          }}
+          >
+            <div style={{
+              width: '400px', height: '40px', display: 'flex', backgroundColor: 'red',
+            }}
+            >
+              kjbdkjwefewf
+            </div>
+            <div style={{
+              width: '400px', height: '40px', display: 'flex', backgroundColor: 'red',
+            }}
+            >
+              kjbdkjwefewf
+            </div>
+            <div style={{
+              width: '400px', height: '40px', display: 'flex', backgroundColor: 'red',
+            }}
+            >
+              kjbdkjwefewf
+            </div>
+            <div style={{
+              width: '400px', height: '40px', display: 'flex', backgroundColor: 'red',
+            }}
+            >
+              kjbdkjwefewf
+            </div>
+            <div style={{
+              width: '400px', height: '40px', display: 'flex', backgroundColor: 'red',
+            }}
+            >
+              kjbdkjwefewf
+            </div>
+            <div style={{
+              width: '400px', height: '40px', display: 'flex', backgroundColor: 'red',
+            }}
+            >
+              kjbdkjwefewf
+            </div>
+            <div style={{
+              width: '400px', height: '40px', display: 'flex', backgroundColor: 'red',
+            }}
+            >
+              kjbdkjwefewf
+            </div>
+            <div style={{
+              width: '400px', height: '40px', display: 'flex', backgroundColor: 'red',
+            }}
+            >
+              kjbdkjwefewf
+            </div>
+            <div style={{
+              width: '400px', height: '40px', display: 'flex', backgroundColor: 'red',
+            }}
+            >
+              kjbdkjwefewf
+            </div>
+          </div>
         </div>
       </Suspense>
     </div>
