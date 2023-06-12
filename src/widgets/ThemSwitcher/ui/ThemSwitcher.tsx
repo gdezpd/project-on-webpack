@@ -1,4 +1,4 @@
-import { classNames } from 'helpers/classNames/classNames';
+import { classNames } from 'shared/lib/classNames/classNames';
 import React from 'react';
 import { Theme, useTheme } from 'app/providers/ThemeProveder';
 import LightIcon from 'shared/assets/icons/theme-light.svg';
